@@ -61,7 +61,7 @@ class ProjectsController < ApplicationController
   end
 
   def add_user
-    @project.user = UserProject.new(user_id: params[:user_id], project_id: @project.id)
+    @project_user = UserProject.new(user_id: params[:user_id], project_id: @project.id)
 
     respond_to do |format|
       if @project_user.save
