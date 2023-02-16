@@ -34,6 +34,9 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'bootstrap-datepicker-rails'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'stripe'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
